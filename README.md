@@ -7,7 +7,6 @@ Group members:
 - Llopis, Ferndale T.
 - Pelagio,Dana Ysabelle A.
 
-
 Title: Weather Tracker App
 
 Theme: GOAL 13 - Climate Action
