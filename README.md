@@ -18,5 +18,5 @@ Additional Features:
 - Climate News and Tips
 
 ![Alt text](/flowchart.png)
-/* ![Alt text](/ipochart.png) */
+![Alt text](/ipochart.png)
 ![Alt text](/ganttchart.png)
