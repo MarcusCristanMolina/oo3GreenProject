@@ -16,3 +16,5 @@ Theme: GOAL 13 - Climate Action
 Additional Features:
 - Carbon Footprint Tracker
 - Climate News and Tips
+
+![Alt text](/flowchart.png)
