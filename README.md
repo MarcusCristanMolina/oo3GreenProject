@@ -17,6 +17,6 @@ Additional Features:
 - Carbon Footprint Tracker
 - Climate News and Tips
 
-![Alt text](/flowchart.png "Flowchart")
-![Alt text](/ipochart.png "IPO chart")
-![Alt text](/ganttchart.png "Gantt chart")
+![image](/flowchart.png "Flowchart")
+![image](/ipochart.png "IPO chart")
+![image](/ganttchart.png "Gantt chart")
