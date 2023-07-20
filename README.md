@@ -1,13 +1,13 @@
 # oo3GreenProject
 
-GREEN's Proposal
+**GREEN's Proposal**
 
 Group members:
 - Molina, Marcus Cristan S. (Leader)
 - Llopis, Ferndale T.
 - Pelagio,Dana Ysabelle A.
 
-Title: Weather Tracker App
+**Title: Weather Tracker App**
 
 Theme: GOAL 13 - Climate Action
 
