@@ -42,4 +42,4 @@
 ![image](/ganttchart.png "Gantt chart")
 
 # Presentation
-[https://www.youtube.com/watch?v=H5PB91liSa](https://www.youtube.com/watch?v=H5PB91liSao)
+https://youtu.be/-X2HGAYygik
