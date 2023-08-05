@@ -1,4 +1,5 @@
 # oo3GreenProject
+![image](/documentation/poster.jpg "Poster")
 
 **GREEN's Proposal**
 
