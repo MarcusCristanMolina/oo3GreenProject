@@ -37,9 +37,9 @@
 6. Climate Advocacy and Petitions: WeatherApp offers opportunities for users to participate in climate advocacy efforts. It can showcase climate-related petitions and provide easy access to platforms where users can support and sign petitions for environmental causes they care about.
 
 **Charts:**
-![image](/Documents/flowchart.png "Flowchart")
-![image](/Documents/ipochart.png "IPO chart")
-![image](/Documents/ganttchart.png "Gantt chart")
+![image](/documentation/flowchart.png "Flowchart")
+![image](/documentation/ipochart.png "IPO chart")
+![image](/documentation/ganttchart.png "Gantt chart")
 
 # Presentation
 https://youtu.be/-X2HGAYygik
