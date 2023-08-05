@@ -1,0 +1,275 @@
+@startuml
+
+title __UIAPP's Class Diagram__\n
+
+  set namespaceSeparator none
+    namespace com.plugin.awesomejava.UIApp {
+    class com.plugin.awesomejava.UIApp.AbsoluteConstraints {
+        + x : int
+        + y : int
+        {static} ~ serialVersionUID : long
+        - height : int
+        - width : int
+        + AbsoluteConstraints()
+        + AbsoluteConstraints()
+        + AbsoluteConstraints()
+        + getHeight()
+        + getWidth()
+        + getX()
+        + getY()
+        + toString()
+        - AbsoluteConstraints()
+    }
+  }
+  
+
+  namespace com.plugin.awesomejava.UIApp {
+    class com.plugin.awesomejava.UIApp.AbsoluteLayout {
+        {static} ~ serialVersionUID : long
+        - constraints : Hashtable
+        + addLayoutComponent()
+        + addLayoutComponent()
+        + getLayoutAlignmentX()
+        + getLayoutAlignmentY()
+        + invalidateLayout()
+        + layoutContainer()
+        + maximumLayoutSize()
+        + minimumLayoutSize()
+        + preferredLayoutSize()
+        + removeLayoutComponent()
+    }
+  }
+  
+
+  namespace com.plugin.awesomejava.UIApp {
+    class com.plugin.awesomejava.UIApp.BackgroundWorker {
+        - CurrentTempLabel : JLabel
+        - DayLambel : JLabel
+        - DescriptionLabel : JLabel
+        - DetailedLabel : JLabel
+        - HumidityLabel : JLabel
+        - MaxTempLabel : JLabel
+        - MinTempLabel : JLabel
+        - PressureJLabel : JLabel
+        - RefreshIconLabel : JLabel
+        - WeatherDayIcon : JLabel
+        - WindLabel : JLabel
+        + BackgroundWorker()
+        + BackgroundWorker()
+        # doInBackground()
+        # done()
+        - SetForecastValuesForCurrentDay()
+        - UpdateStatus()
+    }
+  }
+  
+
+  namespace com.plugin.awesomejava.UIApp {
+    class com.plugin.awesomejava.UIApp.BlockUI {
+        - visibilityVar : AtomicBoolean
+        + BlockUI()
+        + IsStart()
+        + SetVisibilityVar()
+        + getVisibilityVar()
+    }
+  }
+  
+
+  namespace com.plugin.awesomejava.UIApp {
+    class com.plugin.awesomejava.UIApp.DialogObject {
+        - AlertDialog : boolean
+        - Content : String
+        - Header : String
+        - Title : String
+        - Type : AlertType
+        - exception : Exception
+        + DialogObject()
+        + DialogObject()
+        + DialogObject()
+        + DialogObject()
+        + DialogObject()
+        + DialogObject()
+        + getContent()
+        + getHeader()
+        + getTitle()
+        + getType()
+        + getexception()
+        + isAlertDialog()
+        + setAlertDialog()
+        + setContent()
+        + setHeader()
+        + setTitle()
+        + setType()
+        + setexception()
+        + toString()
+    }
+  }
+  
+
+  namespace com.plugin.awesomejava.UIApp {
+    class com.plugin.awesomejava.UIApp.DynJLabelObject {
+        - IconJLabel : JLabel
+        - TemperatureJLabel : JLabel
+        + DynJLabelObject()
+        + DynJLabelObject()
+        + getIconJLabel()
+        + getTemperatureJLabel()
+        + setIconJLabel()
+        + setTemperatureJLabel()
+        + toString()
+    }
+  }
+  
+
+  namespace com.plugin.awesomejava.UIApp {
+    class com.plugin.awesomejava.UIApp.DynamicJLabelList {
+        - DayOfWeekTemperature : ArrayList<JLabel>
+        - DayOfWeekyIcons : ArrayList<JLabel>
+        + AddDayOfWeekTemperature()
+        + AddDayOfWeekyIcons()
+        + DynamicJLabelList()
+        + DynamicJLabelList()
+        + DynamicJLabelList()
+        + getDayOfWeekTemperature()
+        + getDayOfWeekyIcons()
+        + setDayOfWeekTemperature()
+        + setDayOfWeekyIcons()
+    }
+  }
+  
+
+  namespace com.plugin.awesomejava.UIApp {
+    class com.plugin.awesomejava.UIApp.JFxBuilder {
+        + Invoke()
+        + JFxBuilder()
+        + JFxBuilder()
+        + getDialog()
+        + setDialog()
+        - createAlertDialog()
+        - initAndShowGUI()
+        - initFX()
+    }
+  }
+  
+
+  namespace com.plugin.awesomejava.UIApp {
+    class com.plugin.awesomejava.UIApp.MainWeatherFrame {
+        - CurrentTempLabel : JLabel
+        - DayLambel : JLabel
+        - DescriptionLabel : JLabel
+        - DetailedLabel : JLabel
+        - FRIIconJLabel : JLabel
+        - FRITempJLabel : JLabel
+        - HumidityLabel : JLabel
+        - LocationLabel : JLabel
+        - MONIconJLabel : JLabel
+        - MONTempJLabel : JLabel
+        - MaxTempLabel : JLabel
+        - MinTempLabel : JLabel
+        - PressureJLabel : JLabel
+        - RefreshIconLabel : JLabel
+        - SATIconJLabel : JLabel
+        - SATTempJLabel : JLabel
+        - SUNIconJLabel : JLabel
+        - SUNTempJLabel : JLabel
+        - THUIconJLabel : JLabel
+        - THUTempJLabel : JLabel
+        - TUEIconJLabel : JLabel
+        - TUETempJLabel : JLabel
+        - WEDIconJLabel : JLabel
+        - WEDTempJLabel : JLabel
+        - WeatherDayIcon : JLabel
+        - WindLabel : JLabel
+        {static} - delay : int
+        - jLabel1 : JLabel
+        - jLabel11 : JLabel
+        - jLabel13 : JLabel
+        - jLabel15 : JLabel
+        - jLabel16 : JLabel
+        - jLabel18 : JLabel
+        - jLabel19 : JLabel
+        - jLabel2 : JLabel
+        - jLabel20 : JLabel
+        - jLabel21 : JLabel
+        - jLabel29 : JLabel
+        - jLabel37 : JLabel
+        - jLabel38 : JLabel
+        - jLabel39 : JLabel
+        - jLabel4 : JLabel
+        - jLabel40 : JLabel
+        - jLabel41 : JLabel
+        - jLabel42 : JLabel
+        - jLabel45 : JLabel
+        - jLabel6 : JLabel
+        - jPanel2 : JPanel
+        - jSeparator1 : JSeparator
+        - jSeparator2 : JSeparator
+        - jSeparator3 : JSeparator
+        - jSeparator4 : JSeparator
+        - jSeparator5 : JSeparator
+        - timer : Timer
+        - xMouse : int
+        - yMouse : int
+        + MainWeatherFrame()
+        {static} + main()
+        - IconMouseEnteredJLabel()
+        - Init()
+        - InitTimer()
+        - JLabel1MouseEntered()
+        - Jlabel2MouseEntered()
+        - RefreshIconLabelMouseClicked()
+        - UpdateTimerValue()
+        - formMouseDragged()
+        - formMousePressed()
+        - initComponents()
+        - jLabel1MouseClicked()
+        - jLabel2MouseClicked()
+    }
+  }
+  
+
+  com.plugin.awesomejava.UIApp.AbsoluteConstraints .up.|> java.io.Serializable
+  com.plugin.awesomejava.UIApp.AbsoluteLayout .up.|> java.awt.LayoutManager2
+  com.plugin.awesomejava.UIApp.AbsoluteLayout .up.|> java.io.Serializable
+  com.plugin.awesomejava.UIApp.BackgroundWorker -up-|> javax.swing.SwingWorker
+  com.plugin.awesomejava.UIApp.BackgroundWorker o-- com.plugin.awesomejava.UIApp.DynamicJLabelList : DynJLabelList
+  com.plugin.awesomejava.UIApp.BackgroundWorker o-- com.plugin.awesomejava.Location.Error : ErrorCode
+  com.plugin.awesomejava.UIApp.BackgroundWorker o-- com.plugin.awesomejava.Forecast.FeedEntry : entrys
+  com.plugin.awesomejava.UIApp.BlockUI o-- com.plugin.awesomejava.Forecast.FeedEntry : entry
+  com.plugin.awesomejava.UIApp.JFxBuilder o-- com.plugin.awesomejava.UIApp.DialogObject : Dialog
+  com.plugin.awesomejava.UIApp.MainWeatherFrame -up-|> javax.swing.JFrame
+  com.plugin.awesomejava.UIApp.MainWeatherFrame o-- com.plugin.awesomejava.UIApp.DynamicJLabelList : DynJLabelList
+  com.plugin.awesomejava.UIApp.MainWeatherFrame o-- com.plugin.awesomejava.Forecast.FeedEntry : entry
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
+
+/*
+This UML diagram represents the class structure of the UIApp application.
+The application appears to be related to weather information and has several
+classes that handle different aspects of the user interface and background tasks.
+
+The main classes in the diagram include:
+- AbsoluteConstraints: This class seems to define constraints for UI components in the application.
+- AbsoluteLayout: It is a layout manager class that handles the positioning of UI components.
+- BackgroundWorker: This class seems to handle background tasks related to weather updates and UI updates.
+- BlockUI: A class related to blocking or unblocking user interface interaction.
+- DialogObject: This class represents dialog objects used to display messages or alerts.
+- DynJLabelObject: It appears to be related to dynamic JLabel objects.
+- DynamicJLabelList: This class manages lists of dynamic JLabel objects.
+- JFxBuilder: A class responsible for building UI elements using JavaFX.
+- MainWeatherFrame: This class represents the main weather frame in the application,
+    containing various weather-related labels and components.
+
+The associations between classes are also represented in the diagram, showing the
+relationships between various classes. For example, the BackgroundWorker class is
+associated with DynamicJLabelList, Error, and FeedEntry classes, indicating its
+involvement in handling dynamic labels, error codes, and weather feed entries.
+*/
